@@ -10,6 +10,11 @@ stack.push('Leo');
 stack.push('Hank');
 stack.push('Buddy');
 
+
+
+console.log(stack.peek().value);
+
+stack.pop();
 console.log(stack.peek().value);
 
 stack.pop();

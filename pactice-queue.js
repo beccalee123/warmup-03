@@ -12,9 +12,8 @@ queue.enqueue('Leo');
 
 console.log(queue.peek().value);
 
-queue.dequeue();
-console.log(queue.peek().value);
-queue.dequeue();
-console.log(queue.peek().value);
-queue.dequeue();
-console.log(queue.peek().value);
+while(queue.peek() !== null){
+  queue.dequeue();
+  console.log(queue.peek());
+
+}
